@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ─── Light Mode: Original Warm Ivory Palette (default / :root) ───── */
+:root {
+  --color-surface:                    #fcf9f4;
+  --color-surface-container-high:     #ebe8e3;
+  --color-surface-container-low:      #f6f3ee;
+  --color-surface-container-lowest:   #ffffff;
+  --color-surface-container:          #f0ede9;
+  --color-surface-container-highest:  #e5e2dd;
+  --color-surface-bright:             #fcf9f4;
+  --color-surface-dim:                #dcdad5;
+  --color-surface-variant:            #e5e2dd;
+  --color-background:                 #fcf9f4;
+  --color-on-background:              #1c1c19;
+  --color-on-surface:                 #1c1c19;
+  --color-on-surface-variant:         #51443e;
+  --color-outline:                    #84746d;
+  --color-outline-variant:            #d6c2bb;
+  --color-primary:                    #83533c;
+  --color-primary-container:          #c48b71;
+  --color-on-primary:                 #ffffff;
+  --color-primary-fixed:              #ffdbcc;
+  --color-on-primary-fixed:           #331202;
+  --color-primary-fixed-dim:          #f7b89c;
+  --color-tertiary:                   #725b38;
+  --color-tertiary-container:         #af946d;
+  --color-on-tertiary:                #ffffff;
+  --color-tertiary-fixed:             #fedeb2;
+  --color-on-tertiary-fixed:          #281800;
+  --color-secondary:                  #685c55;
+  --color-secondary-container:        #f1dfd7;
+  --color-on-secondary-container:     #6f625b;
+  --color-secondary-fixed:            #f1dfd7;
+  --color-on-secondary-fixed:         #231a15;
+  --color-inverse-surface:            #31302d;
+  --color-inverse-on-surface:         #f3f0eb;
+  --color-error:                      #ba1a1a;
+  --color-error-container:            #ffdad6;
+}
+
+/* ─── Dark Mode: Luxury Black & Golden Palette (html.dark) ──────── */
+html.dark {
+  --color-surface:                    #0a0a0a;
+  --color-surface-container-high:     #141414;
+  --color-surface-container-low:      #100f0e;
+  --color-surface-container-lowest:   #181614;
+  --color-surface-container:          #1c1a17;
+  --color-surface-container-highest:  #25221e;
+  --color-surface-bright:             #1f1d1a;
+  --color-surface-dim:                #080808;
+  --color-surface-variant:            #25221e;
+  --color-background:                 #0a0a0a;
+  --color-on-background:              #FAF6F0;
+  --color-on-surface:                 #FAF6F0;
+  --color-on-surface-variant:         #D8CBB8;
+  --color-outline:                    #C7B9A5;
+  --color-outline-variant:            #3A3125;
+  --color-primary:                    #E6C594;
+  --color-primary-container:          #2A2318;
+  --color-on-primary:                 #12100E;
+  --color-primary-fixed:              #2A2318;
+  --color-on-primary-fixed:           #E6C594;
+  --color-primary-fixed-dim:          #E6C594;
+  --color-tertiary:                   #E6C594;
+  --color-tertiary-container:         #2A2318;
+  --color-on-tertiary:                #12100E;
+  --color-tertiary-fixed:             #2A2318;
+  --color-on-tertiary-fixed:          #E6C594;
+  --color-secondary:                  #EDE4D7;
+  --color-secondary-container:        #24201A;
+  --color-on-secondary-container:     #E6C594;
+  --color-secondary-fixed:            #24201A;
+  --color-on-secondary-fixed:         #EDE4D7;
+  --color-inverse-surface:            #0A0A0A;
+  --color-inverse-on-surface:         #E6C594;
+  --color-error:                      #ffb4ab;
+  --color-error-container:            #93000a;
+}
+
+@theme inline {
+  --color-surface:                    var(--color-surface);
+  --color-surface-container-high:     var(--color-surface-container-high);
+  --color-surface-container-low:      var(--color-surface-container-low);
+  --color-surface-container-lowest:   var(--color-surface-container-lowest);
+  --color-surface-container:          var(--color-surface-container);
+  --color-surface-container-highest:  var(--color-surface-container-highest);
+  --color-background:                 var(--color-background);
+  --color-on-background:              var(--color-on-background);
+  --color-on-surface:                 var(--color-on-surface);
+  --color-on-surface-variant:         var(--color-on-surface-variant);
+  --color-outline:                    var(--color-outline);
+  --color-outline-variant:            var(--color-outline-variant);
+  --color-primary:                    var(--color-primary);
+  --color-primary-container:          var(--color-primary-container);
+  --color-on-primary:                 var(--color-on-primary);
+  --color-tertiary:                   var(--color-tertiary);
+  --color-on-tertiary:                var(--color-on-tertiary);
+  --color-secondary:                  var(--color-secondary);
+  --color-secondary-container:        var(--color-secondary-container);
+  --color-on-secondary-container:     var(--color-on-secondary-container);
+  --color-secondary-fixed:            var(--color-secondary-fixed);
+  --color-on-secondary-fixed:         var(--color-on-secondary-fixed);
+  --color-primary-fixed:              var(--color-primary-fixed);
+  --color-on-primary-fixed:           var(--color-on-primary-fixed);
+  --color-inverse-surface:            var(--color-inverse-surface);
+  --color-inverse-on-surface:         var(--color-inverse-on-surface);
+
+  --font-display-lg:   'Playfair Display', Georgia, serif;
+  --font-headline-lg:  'Playfair Display', Georgia, serif;
+  --font-headline-md:  'Playfair Display', Georgia, serif;
+  --font-title-lg:     'Plus Jakarta Sans', sans-serif;
+  --font-body-lg:      'Plus Jakarta Sans', sans-serif;
+  --font-body-md:      'Plus Jakarta Sans', sans-serif;
+  --font-label-md:     'Plus Jakarta Sans', sans-serif;
+  --font-label-sm:     'Plus Jakarta Sans', sans-serif;
+  --font-sans:         'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif:        'Playfair Display', Georgia, Cambria, serif;
+}
+
+/* ─── CSS Reset ──────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: clip;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: clip;
+  overflow-y: visible;
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-surface);
+}
+
+/* ─── Guaranteed Theme Utility Bindings ───────────────────── */
+.bg-surface                    { background-color: var(--color-surface) !important; }
+.bg-surface-container-high     { background-color: var(--color-surface-container-high) !important; }
+.bg-surface-container-low      { background-color: var(--color-surface-container-low) !important; }
+.bg-surface-container-lowest   { background-color: var(--color-surface-container-lowest) !important; }
+.bg-surface-container          { background-color: var(--color-surface-container) !important; }
+.bg-surface-container-highest  { background-color: var(--color-surface-container-highest) !important; }
+.bg-on-background              { background-color: var(--color-on-background) !important; }
+.bg-inverse-surface            { background-color: var(--color-inverse-surface) !important; }
+.bg-primary                    { background-color: var(--color-primary) !important; }
+.bg-secondary-container        { background-color: var(--color-secondary-container) !important; }
+.bg-secondary-fixed            { background-color: var(--color-secondary-fixed) !important; }
+.bg-primary-fixed              { background-color: var(--color-primary-fixed) !important; }
+
+.text-on-surface               { color: var(--color-on-surface) !important; }
+.text-on-surface-variant       { color: var(--color-on-surface-variant) !important; }
+.text-primary                  { color: var(--color-primary) !important; }
+.text-tertiary                 { color: var(--color-tertiary) !important; }
+.text-outline                  { color: var(--color-outline) !important; }
+.text-on-primary               { color: var(--color-on-primary) !important; }
+.text-inverse-on-surface       { color: var(--color-inverse-on-surface) !important; }
+.text-on-secondary-container   { color: var(--color-on-secondary-container) !important; }
+.text-on-secondary-fixed       { color: var(--color-on-secondary-fixed) !important; }
+.text-on-primary-fixed         { color: var(--color-on-primary-fixed) !important; }
+
+.border-outline-variant        { border-color: var(--color-outline-variant) !important; }
+
+/* ─── Dark Mode Specific Polish ───────────────────────────── */
+html.dark footer {
+  background-color: #050505 !important;
+  border-top: 1px solid #222222 !important;
+}
+
+html.dark header {
+  background-color: rgba(10, 10, 10, 0.94) !important;
+  border-bottom: 1px solid #222222 !important;
+}
+
+html.dark .hero-floating-card {
+  background-color: rgba(22, 22, 22, 0.96) !important;
+  border: 1px solid #333333 !important;
+}
+
+html.dark .bedsheet-blend-mask img {
+  filter: brightness(0.85) contrast(1.18) !important;
+}
+
+/* ─── Material Symbols ───────────────────────────────────── */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+/* ─── Typography Scale Classes ───────────────────────────── */
+.font-display-lg  { font-family: 'Playfair Display', Georgia, serif; }
+.font-headline-lg { font-family: 'Playfair Display', Georgia, serif; }
+.font-headline-md { font-family: 'Playfair Display', Georgia, serif; }
+.font-title-lg    { font-family: 'Plus Jakarta Sans', sans-serif; }
+.font-body-lg     { font-family: 'Plus Jakarta Sans', sans-serif; }
+.font-body-md     { font-family: 'Plus Jakarta Sans', sans-serif; }
+.font-label-md    { font-family: 'Plus Jakarta Sans', sans-serif; }
+.font-label-sm    { font-family: 'Plus Jakarta Sans', sans-serif; }
+
+.text-display-lg  { font-size: 3.5rem;    line-height: 1.15; letter-spacing: -0.02em; font-weight: 400; }
+.text-headline-lg { font-size: 2.25rem;   line-height: 1.25; letter-spacing: -0.01em; font-weight: 500; }
+.text-headline-md { font-size: 1.5rem;    line-height: 1.35; letter-spacing: 0;       font-weight: 500; }
+.text-title-lg    { font-size: 1.125rem;  line-height: 1.4;  letter-spacing: 0.01em;  font-weight: 600; }
+.text-body-lg     { font-size: 1.125rem;  line-height: 1.6;  letter-spacing: 0;       font-weight: 400; }
+.text-body-md     { font-size: 1rem;      line-height: 1.55; letter-spacing: 0;       font-weight: 400; }
+.text-label-md    { font-size: 0.75rem;   line-height: 1.2;  letter-spacing: 0.12em;  font-weight: 600; }
+.text-label-sm    { font-size: 0.6875rem; line-height: 1.2;  letter-spacing: 0.08em;  font-weight: 500; }
+
+@media (max-width: 768px) {
+  .text-display-lg  { font-size: 2.5rem;  line-height: 1.2;  letter-spacing: -0.01em; }
+  .text-headline-lg { font-size: 1.75rem; line-height: 1.3;  letter-spacing: 0; }
+}
+
+/* ─── Horizontal padding shorthand ──────────────────────── */
+.px-margin {
+  padding-left:  3rem;
+  padding-right: 3rem;
+}
+@media (max-width: 1024px) {
+  .px-margin { padding-left: 1.5rem; padding-right: 1.5rem; }
+}
+@media (max-width: 640px) {
+  .px-margin { padding-left: 1.25rem; padding-right: 1.25rem; }
+}
+
+/* ─── Luxury Scrollbar ───────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-outline-variant);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* ─── Seamless Bedsheet Mask Blending ────────────────────── */
+.bedsheet-blend-mask {
+  mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 8%, rgba(0, 0, 0, 0.8) 22%, black 38%, black 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 8%, rgba(0, 0, 0, 0.8) 22%, black 38%, black 100%);
+}
+
+@media (min-width: 1024px) {
+  .bedsheet-blend-mask {
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0, 0, 0, 0.04) 4%,
+      rgba(0, 0, 0, 0.3) 12%,
+      rgba(0, 0, 0, 0.85) 24%,
+      black 36%,
+      black 86%,
+      rgba(0, 0, 0, 0.7) 94%,
+      transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0, 0, 0, 0.04) 4%,
+      rgba(0, 0, 0, 0.3) 12%,
+      rgba(0, 0, 0, 0.85) 24%,
+      black 36%,
+      black 86%,
+      rgba(0, 0, 0, 0.7) 94%,
+      transparent 100%
+    );
+  }
+}
+
+/* ─── Custom selection ───────────────────────────────────── */
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+}

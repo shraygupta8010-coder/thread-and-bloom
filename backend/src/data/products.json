@@ -1,0 +1,899 @@
+[
+  {
+    "id": "TB-KBS-ANDZ-T1",
+    "name": "Andaaz Type 1",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2199,
+    "originalPrice": 2899,
+    "stockQuantity": 50,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Andaaz/Andaaz bedsheet 1.jpeg",
+      "/products/king size/Andaaz/Andaaz bedsheet 1  dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 2199
+    },
+    "description": "Andaaz Type 1 King Size 3-piece premium bedsheet set (1 bedsheet + 2 pillow covers) with elegant design and superior comfort",
+    "badge": "New Arrival",
+    "sku": "TB-KBS-ANDZ-T1",
+    "hsn": "6302",
+    "weight_kg": 2.5,
+    "dimensions_cm": "40x30x12",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-ANDZ-T2",
+    "name": "Andaaz Type 2",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2199,
+    "originalPrice": 2899,
+    "stockQuantity": 50,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Andaaz/Andaaz bedsheet 2.jpeg",
+      "/products/king size/Andaaz/Andaaz bedsheet 2 dimesion.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 2199
+    },
+    "description": "Andaaz Type 2 King Size 3-piece premium bedsheet set (1 bedsheet + 2 pillow covers) with elegant design and superior comfort",
+    "sku": "TB-KBS-ANDZ-T2",
+    "hsn": "6302",
+    "weight_kg": 2.5,
+    "dimensions_cm": "40x30x12",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-DSCH-T1",
+    "name": "Discharge Type 1",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2399,
+    "originalPrice": 3199,
+    "stockQuantity": 45,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Discharge/Discharge type 1.jpeg",
+      "/products/king size/Discharge/Discharge type 1 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 2399
+    },
+    "description": "Discharge Type 1 King Size 3-piece premium bedsheet set (1 bedsheet + 2 pillow covers) with unique discharge print and soft texture",
+    "sku": "TB-KBS-DSCH-T1",
+    "hsn": "6302",
+    "weight_kg": 2.5,
+    "dimensions_cm": "40x30x12",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-DSCH-T2",
+    "name": "Discharge Type 2",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2399,
+    "originalPrice": 3199,
+    "stockQuantity": 45,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Discharge/Discharge type 2.jpeg",
+      "/products/king size/Discharge/Discharge type 2 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 2399
+    },
+    "description": "Discharge Type 2 King Size 3-piece premium bedsheet set (1 bedsheet + 2 pillow covers) with unique discharge print and soft texture",
+    "sku": "TB-KBS-DSCH-T2",
+    "hsn": "6302",
+    "weight_kg": 2.5,
+    "dimensions_cm": "40x30x12",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-DHDH-T1",
+    "name": "Double Dhamaal Type 1",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Reversible King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedding Sets",
+    "price": 3499,
+    "originalPrice": 4499,
+    "stockQuantity": 40,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/double dhamaal king size reversable/type 1/main image.jpeg",
+      "/products/king size/double dhamaal king size reversable/type 1/dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 3499
+    },
+    "description": "Double Dhamaal Type 1 - Premium 3-piece reversible king bedsheet set (1 bedsheet + 2 pillow covers) with dual design options for versatile styling",
+    "badge": "REVERSIBLE",
+    "sku": "TB-KBS-DHDH-T1",
+    "hsn": "6302",
+    "weight_kg": 3,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-DHDH-T2",
+    "name": "Double Dhamaal Type 2",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Reversible King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedding Sets",
+    "price": 3499,
+    "originalPrice": 4499,
+    "stockQuantity": 40,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/double dhamaal king size reversable/type 2/type 2.jpeg",
+      "/products/king size/double dhamaal king size reversable/type 2/type 2 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 3499
+    },
+    "description": "Double Dhamaal Type 2 - Premium 3-piece reversible king bedsheet set (1 bedsheet + 2 pillow covers) with dual design options for versatile styling",
+    "badge": "REVERSIBLE",
+    "sku": "TB-KBS-DHDH-T2",
+    "hsn": "6302",
+    "weight_kg": 3,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-DBDT-T1",
+    "name": "Double Duty Type 1",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Reversible King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedding Sets",
+    "price": 3699,
+    "originalPrice": 4799,
+    "stockQuantity": 38,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Double duty king size reversable/type 1/type 1.jpeg",
+      "/products/king size/Double duty king size reversable/type 1/type 1 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 3699
+    },
+    "description": "Double Duty Type 1 - Versatile 3-piece reversible king bedsheet set (1 bedsheet + 2 pillow covers) with premium finish and reversible design",
+    "badge": "REVERSIBLE",
+    "sku": "TB-KBS-DBDT-T1",
+    "hsn": "6302",
+    "weight_kg": 3,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-DBDT-T2",
+    "name": "Double Duty Type 2",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Reversible King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedding Sets",
+    "price": 3699,
+    "originalPrice": 4799,
+    "stockQuantity": 38,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Double duty king size reversable/type 2/type 2.jpeg",
+      "/products/king size/Double duty king size reversable/type 2/type 2 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 3699
+    },
+    "description": "Double Duty Type 2 - Versatile 3-piece reversible king bedsheet set (1 bedsheet + 2 pillow covers) with premium finish and reversible design",
+    "badge": "REVERSIBLE",
+    "sku": "TB-KBS-DBDT-T2",
+    "hsn": "6302",
+    "weight_kg": 3,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-FLR-LGW",
+    "name": "Florida Light Grey & White",
+    "collection": "ELITE",
+    "collectionTier": "ELITE",
+    "series": "Elite Premium",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2799,
+    "originalPrice": 3699,
+    "stockQuantity": 35,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Florida/light grey and white.jpeg",
+      "/products/king size/Florida/light grey and white diension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 2799
+    },
+    "description": "Florida Light Grey & White - Sophisticated 3-piece king bedsheet set (1 bedsheet + 2 pillow covers) with minimalist elegance",
+    "badge": "ELITE SIGNATURE",
+    "sku": "TB-KBS-FLR-LGW",
+    "hsn": "6302",
+    "weight_kg": 2.8,
+    "dimensions_cm": "42x32x13",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-MHRJ-T1",
+    "name": "Maharaja Type 1",
+    "collection": "ROYAL",
+    "collectionTier": "ROYAL",
+    "series": "Royal Line",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 4299,
+    "originalPrice": 5599,
+    "stockQuantity": 30,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Maharaja/maharaj type 1.jpeg",
+      "/products/king size/Maharaja/Maharaj type 1 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 4299
+    },
+    "description": "Maharaja Type 1 - Royal collection 3-piece king bedsheet set (1 bedsheet + 2 pillow covers) with regal patterns and premium quality fabric",
+    "badge": "ROYAL LINE",
+    "sku": "TB-KBS-MHRJ-T1",
+    "hsn": "6302",
+    "weight_kg": 3.2,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-MHRJ-T2",
+    "name": "Maharaja Type 2",
+    "collection": "ROYAL",
+    "collectionTier": "ROYAL",
+    "series": "Royal Line",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 4299,
+    "originalPrice": 5599,
+    "stockQuantity": 30,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Maharaja/Maharaja type 2.jpeg",
+      "/products/king size/Maharaja/Maharaja type 2 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 4299
+    },
+    "description": "Maharaja Type 2 - Royal collection 3-piece king bedsheet set (1 bedsheet + 2 pillow covers) with majestic design and luxurious fabric",
+    "badge": "ROYAL LINE",
+    "sku": "TB-KBS-MHRJ-T2",
+    "hsn": "6302",
+    "weight_kg": 3.2,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-MHRJ-T3",
+    "name": "Maharaja Type 3",
+    "collection": "ROYAL",
+    "collectionTier": "ROYAL",
+    "series": "Royal Line",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 4299,
+    "originalPrice": 5599,
+    "stockQuantity": 30,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Maharaja/maharaja type 3.jpeg",
+      "/products/king size/Maharaja/Maharaja type 3 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 4299
+    },
+    "description": "Maharaja Type 3 - Royal collection 3-piece king bedsheet set (1 bedsheet + 2 pillow covers) with opulent patterns and supreme comfort",
+    "badge": "ROYAL LINE",
+    "sku": "TB-KBS-MHRJ-T3",
+    "hsn": "6302",
+    "weight_kg": 3.2,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-OMB",
+    "name": "Ombre King",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 1999,
+    "originalPrice": 2699,
+    "stockQuantity": 42,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/ombre king size/muted plum.jpeg",
+      "/products/king size/ombre king size/muted plum dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 1999
+    },
+    "description": "Ombre King - Gradient design 3-piece bedsheet set (1 bedsheet + 2 pillow covers) with smooth color transitions",
+    "badge": "New Arrival",
+    "sku": "TB-KBS-OMB",
+    "hsn": "6302",
+    "weight_kg": 2.5,
+    "dimensions_cm": "40x30x12",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-OXF",
+    "name": "Oxford King",
+    "collection": "ELITE",
+    "collectionTier": "ELITE",
+    "series": "Elite Premium",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2899,
+    "originalPrice": 3799,
+    "stockQuantity": 35,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Oxford/oxford bedsheet.jpeg",
+      "/products/king size/Oxford/Oxford bedsheet dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 2899
+    },
+    "description": "Oxford King - Classic elite 3-piece bedsheet set (1 bedsheet + 2 pillow covers) with refined patterns and superior quality",
+    "badge": "ELITE SIGNATURE",
+    "sku": "TB-KBS-OXF",
+    "hsn": "6302",
+    "weight_kg": 2.8,
+    "dimensions_cm": "42x32x13",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-RSWD-NEW",
+    "name": "Rose Wood King",
+    "collection": "ELITE",
+    "collectionTier": "ELITE",
+    "series": "Elite Premium",
+    "pieces": 3,
+    "subtitle": "3-Piece King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2899,
+    "originalPrice": 3799,
+    "stockQuantity": 38,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/Rose Wood/Rose Wood bedsheet.jpeg",
+      "/products/king size/Rose Wood/Rose Wood bedsheet dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 2899
+    },
+    "description": "Rose Wood King - Elegant 3-piece bedsheet set (1 bedsheet + 2 pillow covers) with warm tones and luxurious fabric",
+    "badge": "ELITE SIGNATURE",
+    "sku": "TB-KBS-RSWD-NEW",
+    "hsn": "6302",
+    "weight_kg": 2.8,
+    "dimensions_cm": "42x32x13",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-VLE-T1",
+    "name": "Volla Emboss Maroon",
+    "collection": "ELITE",
+    "collectionTier": "ELITE",
+    "series": "Elite Premium",
+    "pieces": 3,
+    "subtitle": "3-Piece Embossed King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 3299,
+    "originalPrice": 4299,
+    "stockQuantity": 32,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/volla emboss king (king size)/maroon (classic plain bedsheet).jpeg",
+      "/products/king size/volla emboss king (king size)/maroon dimension (classic plain bedsheet).jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 3299
+    },
+    "description": "Volla Emboss Maroon - Premium 3-piece embossed king bedsheet set (1 bedsheet + 2 pillow covers) with textured elegance",
+    "badge": "ELITE SIGNATURE",
+    "sku": "TB-KBS-VLE-T1",
+    "hsn": "6302",
+    "weight_kg": 3,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-KBS-VLE-T2",
+    "name": "Volla Emboss Taupe",
+    "collection": "ELITE",
+    "collectionTier": "ELITE",
+    "series": "Elite Premium",
+    "pieces": 3,
+    "subtitle": "3-Piece Embossed King Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 3299,
+    "originalPrice": 4299,
+    "stockQuantity": 32,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "images": [
+      "/products/king size/volla emboss king (king size)/taupe(classic plain bedsheet).jpeg",
+      "/products/king size/volla emboss king (king size)/taupe dimension (classic plain bedsheet).jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "King"
+    ],
+    "sizePrices": {
+      "King": 3299
+    },
+    "description": "Volla Emboss Taupe - Premium 3-piece embossed king bedsheet set (1 bedsheet + 2 pillow covers) with sophisticated texture",
+    "badge": "ELITE SIGNATURE",
+    "sku": "TB-KBS-VLE-T2",
+    "hsn": "6302",
+    "weight_kg": 3,
+    "dimensions_cm": "45x35x15",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-QBS-KAL-T1",
+    "name": "Kalamkari Type 1",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Queen Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 1899,
+    "originalPrice": 2499,
+    "stockQuantity": 40,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/Queen size/kalamkari/kalamkari type 1.jpeg",
+      "/products/Queen size/kalamkari/kalamkari type 1 dimension (quilted pillow covers ).jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "Queen"
+    ],
+    "sizePrices": {
+      "Queen": 1899
+    },
+    "description": "Kalamkari Type 1 - Traditional hand-block print 3-piece queen bedsheet set (1 bedsheet + 2 pillow covers) with artistic patterns",
+    "badge": "CLASSIC ATELIER",
+    "sku": "TB-QBS-KAL-T1",
+    "hsn": "6302",
+    "weight_kg": 2,
+    "dimensions_cm": "38x28x10",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-QBS-KAL-T2",
+    "name": "Kalamkari Type 2",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Queen Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 1899,
+    "originalPrice": 2499,
+    "stockQuantity": 40,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/Queen size/kalamkari/kalamkari type 2.jpeg",
+      "/products/Queen size/kalamkari/kalamkari type 2 dimension (quilted bedsheet pillow cover ).jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "Queen"
+    ],
+    "sizePrices": {
+      "Queen": 1899
+    },
+    "description": "Kalamkari Type 2 - Traditional hand-block print 3-piece queen bedsheet set (1 bedsheet + 2 pillow covers) with vibrant motifs",
+    "badge": "CLASSIC ATELIER",
+    "sku": "TB-QBS-KAL-T2",
+    "hsn": "6302",
+    "weight_kg": 2,
+    "dimensions_cm": "38x28x10",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-QBS-KAL-T3",
+    "name": "Kalamkari Type 3",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Queen Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 1899,
+    "originalPrice": 2499,
+    "stockQuantity": 40,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/Queen size/kalamkari/kalamkari type 3.jpeg",
+      "/products/Queen size/kalamkari/kalamkari type 3  dimension (quilted bedsheet pillow cover ).jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "Queen"
+    ],
+    "sizePrices": {
+      "Queen": 1899
+    },
+    "description": "Kalamkari Type 3 - Traditional hand-block print 3-piece queen bedsheet set (1 bedsheet + 2 pillow covers) with intricate artwork",
+    "badge": "CLASSIC ATELIER",
+    "sku": "TB-QBS-KAL-T3",
+    "hsn": "6302",
+    "weight_kg": 2,
+    "dimensions_cm": "38x28x10",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-QBS-MRK-T1",
+    "name": "Meraki Type 1",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Queen Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2199,
+    "originalPrice": 2899,
+    "stockQuantity": 45,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/Queen size/meraki/meraki type 1.jpeg",
+      "/products/Queen size/meraki/meraki type 1 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "Queen"
+    ],
+    "sizePrices": {
+      "Queen": 2199
+    },
+    "description": "Meraki Type 1 - Artisan-crafted 3-piece queen bedsheet set (1 bedsheet + 2 pillow covers) with creative soul and modern aesthetics",
+    "badge": "New Arrival",
+    "sku": "TB-QBS-MRK-T1",
+    "hsn": "6302",
+    "weight_kg": 2,
+    "dimensions_cm": "38x28x10",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-QBS-MRK-T2",
+    "name": "Meraki Type 2",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Queen Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2199,
+    "originalPrice": 2899,
+    "stockQuantity": 45,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/Queen size/meraki/meraki type 2.jpeg",
+      "/products/Queen size/meraki/meraki type 2 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "Queen"
+    ],
+    "sizePrices": {
+      "Queen": 2199
+    },
+    "description": "Meraki Type 2 - Artisan-crafted 3-piece queen bedsheet set (1 bedsheet + 2 pillow covers) with unique design and premium comfort",
+    "badge": "New Arrival",
+    "sku": "TB-QBS-MRK-T2",
+    "hsn": "6302",
+    "weight_kg": 2,
+    "dimensions_cm": "38x28x10",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-QBS-VIB-T1",
+    "name": "Vibes Type 1",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 1,
+    "subtitle": "Single-Piece Queen Bedsheet",
+    "category": "Bedsheets",
+    "price": 1299,
+    "originalPrice": 1699,
+    "stockQuantity": 50,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.7,
+    "reviewsCount": 45,
+    "images": [
+      "/products/Queen size/vibes/vibes  type 1.jpeg",
+      "/products/Queen size/vibes/vibes type 1 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "Queen"
+    ],
+    "sizePrices": {
+      "Queen": 1299
+    },
+    "description": "Vibes Type 1 - Contemporary single-piece queen bedsheet with fresh modern design",
+    "badge": "Bestseller",
+    "sku": "TB-QBS-VIB-T1",
+    "hsn": "6302",
+    "weight_kg": 1.8,
+    "dimensions_cm": "35x25x8",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-QBS-VDV-T1",
+    "name": "Volla Divine Type 1",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Queen Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2399,
+    "originalPrice": 3199,
+    "stockQuantity": 42,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/Queen size/volla ( divine )/volla divine type 1.jpeg",
+      "/products/Queen size/volla ( divine )/volla diviine type 1 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "Queen"
+    ],
+    "sizePrices": {
+      "Queen": 2399
+    },
+    "description": "Volla Divine Type 1 - Heavenly soft 3-piece queen bedsheet set (1 bedsheet + 2 pillow covers) with divine comfort and elegance",
+    "badge": "CLASSIC ATELIER",
+    "sku": "TB-QBS-VDV-T1",
+    "hsn": "6302",
+    "weight_kg": 2,
+    "dimensions_cm": "38x28x10",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "TB-QBS-VDV-T2",
+    "name": "Volla Divine Type 2",
+    "collection": "ATELIER",
+    "collectionTier": "ATELIER",
+    "series": "Atelier Standard",
+    "pieces": 3,
+    "subtitle": "3-Piece Queen Bedsheet Set (1 Bedsheet + 2 Pillow Covers)",
+    "category": "Bedsheets",
+    "price": 2399,
+    "originalPrice": 3199,
+    "stockQuantity": 42,
+    "unitsSold": 0,
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "images": [
+      "/products/Queen size/volla ( divine )/volla divine type 2.jpeg",
+      "/products/Queen size/volla ( divine )/volla divine type 2 dimension.jpeg"
+    ],
+    "colors": [],
+    "sizes": [
+      "Queen"
+    ],
+    "sizePrices": {
+      "Queen": 2399
+    },
+    "description": "Volla Divine Type 2 - Serene 3-piece queen bedsheet set (1 bedsheet + 2 pillow covers) with luxurious feel and beautiful patterns",
+    "badge": "CLASSIC ATELIER",
+    "sku": "TB-QBS-VDV-T2",
+    "hsn": "6302",
+    "weight_kg": 2,
+    "dimensions_cm": "38x28x10",
+    "created_at": "2026-10-22T16:46:20.931395+00:00",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  }
+]

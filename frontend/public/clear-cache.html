@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Cache - Thread & Bloom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            text-align: center;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #2D6A4F;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover {
+            background: #1a4d35;
+        }
+        .success {
+            color: #2D6A4F;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🧹 Clear Cache</h1>
+        <p>Click the button below to clear all cached data and reload with fresh product names and images.</p>
+        <button onclick="clearAllCache()">Clear Cache & Reload</button>
+        <div id="status"></div>
+    </div>
+
+    <script>
+        function clearAllCache() {
+            // Clear LocalStorage
+            localStorage.clear();
+            
+            // Clear SessionStorage
+            sessionStorage.clear();
+            
+            // Clear Service Worker cache if exists
+            if ('caches' in window) {
+                caches.keys().then(function(names) {
+                    for (let name of names) caches.delete(name);
+                });
+            }
+            
+            document.getElementById('status').innerHTML = 
+                '<p class="success">✅ Cache cleared! Redirecting to products page...</p>';
+            
+            // Redirect to blankets page with cache busting
+            setTimeout(function() {
+                window.location.href = '/blankets?nocache=' + Date.now();
+            }, 1500);
+        }
+    </script>
+</body>
+</html>

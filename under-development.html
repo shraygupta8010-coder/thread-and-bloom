@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thread and Bloom - Premium bedding commodities and home decor. Coming soon to elevate your living spaces.">
+    <meta name="keywords" content="bedding, home decor, bedsheets, comforters, luxury bedding, Thread and Bloom">
+    <title>Thread and Bloom - Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2c3e50;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            font-weight: 300;
+            opacity: 0.95;
+        }
+
+        /* Main Content */
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .content-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 3rem 2rem;
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo-placeholder {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+        }
+
+        .content-container h2 {
+            font-size: 2rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .content-container p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .feature-list {
+            text-align: left;
+            margin: 2rem auto;
+            max-width: 500px;
+        }
+
+        .feature-list li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #eee;
+            font-size: 1rem;
+            color: #666;
+            list-style: none;
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 2.5rem 1rem 1.5rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        .footer-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: #bbb;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            color: #667eea;
+            text-decoration: underline;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.8rem;
+        }
+
+        .contact-item strong {
+            min-width: 80px;
+            color: #667eea;
+        }
+
+        .footer-divider {
+            height: 1px;
+            background: #444;
+            margin: 1.5rem 0;
+        }
+
+        .footer-bottom {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .content-container {
+                padding: 2rem 1.5rem;
+            }
+
+            .content-container h2 {
+                font-size: 1.6rem;
+            }
+
+            .content-container p {
+                font-size: 1rem;
+            }
+
+            .logo-placeholder {
+                width: 100px;
+                height: 100px;
+                font-size: 2.5rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .contact-item {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+            }
+
+            .content-container {
+                padding: 1.5rem 1rem;
+            }
+
+            .feature-list {
+                text-align: center;
+            }
+
+            .feature-list li {
+                padding-left: 0;
+            }
+
+            .feature-list li:before {
+                position: relative;
+                left: auto;
+                margin-right: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Thread and Bloom</h1>
+        <p>Premium Bedding & Home Decor</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content-container">
+            <div class="logo-placeholder">
+                T&B
+            </div>
+            
+            <h2>We're Building Something Beautiful</h2>
+            
+            <p>
+                Welcome to <strong>Thread and Bloom</strong>, your destination for premium 
+                bedding commodities and exquisite home decor. We're currently weaving together 
+                an exceptional online shopping experience just for you.
+            </p>
+
+            <ul class="feature-list">
+                <li>Premium Quality Bedsheets & Comforters</li>
+                <li>Luxury Home Decor Collections</li>
+                <li>Handpicked Designs & Patterns</li>
+                <li>Nationwide Delivery Services</li>
+            </ul>
+
+            <p>
+                Our curated collection of bedding essentials and home furnishings will soon 
+                be available online. Stay tuned for a seamless shopping experience that brings 
+                comfort and elegance to your home.
+            </p>
+
+            <span class="status-badge">🚀 Coming Soon</span>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <!-- Contact Information -->
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:support@threadandbloom.com">support@threadandbloom.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <span>+91 (800) 123-4567</span>
+                    </div>
+                </div>
+
+                <!-- Business Location -->
+                <div class="footer-section">
+                    <h3>Business Location</h3>
+                    <p>
+                        Thread and Bloom Private Limited<br>
+                        123 Commerce Street, MG Road<br>
+                        Bengaluru, Karnataka 560001<br>
+                        India
+                    </p>
+                </div>
+
+                <!-- Business Information -->
+                <div class="footer-section">
+                    <h3>Business Information</h3>
+                    <p>
+                        <strong>Business Type:</strong> E-commerce<br>
+                        <strong>Category:</strong> Home Decor & Bedding<br>
+                        <strong>GSTIN:</strong> 29XXXXX1234X1ZX<br>
+                        <strong>Est.:</strong> 2024
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Thread and Bloom. All rights reserved.</p>
+                <p>Premium Bedding Commodities & Home Decor Solutions</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
